@@ -11,16 +11,12 @@ randomness=randomness[-20:]
 
 digits=list(randomness.split(" "))
 
-char_occurrence=[]
+char_occurrence=[0]*16
 
 #Hexadecimal dictionary
 hex_dict={'a': 10, 'b':11, 'c':12, 'd':13, 'e':14, 'f':15}
 
 for i in range(20):
-    #Initialization of char_occurrence list 
-    if(i<=15):
-        char_occurrence[i]=0
-
     #If the character is a number
     if(digits[i].isalpha()==False):
         char_occurrence[digits[i]]+=1
