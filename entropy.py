@@ -41,30 +41,3 @@ for i in range(16):
 entropy*=-1
 
 print("The entropy of {} is {}".format(randomness,entropy))
-
-
-
-          
-        
-    
-
-
-
-
-
-
-
-
-
-
-
-
-      
-
-
-
-
-
-
-
-
